@@ -98,5 +98,5 @@ app.post("/login", (req, res) => {
 
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
-    console.log(`The web server is created at the port ${port}`);
+    console.log(`The web server is created at the port ${PORT}`);
 })
